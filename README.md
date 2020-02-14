@@ -31,7 +31,7 @@ Splunk App for looking up several fields in the [MaxMind](https://www.maxmind.co
 
 **Outputfield**|**Example Value**
 :-----|:-----
-`[mm\_]continent`|Ozeanien
+`[mm_]continent`|Ozeanien
 `[mm_]continent_code`|OC
 `[mm_]country`|Australien
 `[mm_]country_code`|AU
