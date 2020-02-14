@@ -9,7 +9,7 @@ Splunk App for looking up several fields in the [MaxMind](https://www.maxmind.co
 **Parameter**|**Description**|**Default**|**Example**
 :-----|:-----|:-----|:-----
 `ip=<ip-feld>`|field containing IP address|src\_ip|`mmcountry ip=ip`
-`lang=[ de | en | fr | es | ru | ja | pt-BR | zh-CN ]`|language for output|de|`mmcountry lang=en`
+`lang=[ de en fr es ru ja pt-BR zh-CN ]`|language for output|de|`mmcountry lang=en`
 `nomm`|output fields should not be prefixed by `mm_`|unset|`mmcountry nomm`
 `debug`|dev debugging|unset|`mmcountry debug`
 
@@ -25,7 +25,7 @@ Splunk App for looking up several fields in the [MaxMind](https://www.maxmind.co
 **Parameter**|**Description**|**Default**|**Example**
 :-----|:-----|:-----|:-----
 `ip=<ip-feld>`|field containing IP address|src\_ip|`mmcountry ip=ip`
-`lang=[ de | en | fr | es | ru | ja | pt-BR | zh-CN ]`|language for output|de|`mmcountry lang=en`
+`lang=[ de en fr es ru ja pt-BR zh-CN ]`|language for output|de|`mmcountry lang=en`
 `nomm`|output fields should not be prefixed by `mm_`|unset|`mmcountry nomm`
 `debug`|dev debugging|unset|`mmcountry debug`
 
