@@ -2,8 +2,6 @@
 
 Splunk App for looking up several fields in the [MaxMind](https://www.maxmind.com/) database.
 
-## Use Cases
-
 ## Commands
 
 ### mmcountry
