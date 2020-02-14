@@ -2,6 +2,8 @@
 
 Splunk App for looking up several fields in the [MaxMind](https://www.maxmind.com/) database.
 
+## Use Cases
+
 ## Commands
 
 ### mmcountry
@@ -55,3 +57,7 @@ Splunk App for looking up several fields in the [MaxMind](https://www.maxmind.co
 `[mm_]isp`|Google| 
 `[mm_]organization`|Google| 
 
+## Examples
+
+* Give me a country in English without prefixes and the IP-address is located in field `ip`: `<your search> | mmcountry lang=en ip=ip nomm`
+* Give me the ISP, IP-address is located in field `ip`: `<your search> | mmisp ip=ip`
